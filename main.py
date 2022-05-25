@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_chat import message
 import requests
 
-st.header("Dialogpt를 이용한 영어 Chatbot")
+st.header("dialogpt API를 이용한 영어 챗봇")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
